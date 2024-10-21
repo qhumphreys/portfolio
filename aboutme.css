@@ -1,0 +1,46 @@
+body{
+    margin:3vw;
+    background:#73a168;
+}
+.title{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size:4vw;
+    color: #523e2c;
+}
+#titlespan{
+    border: 0.7vw solid #425e3c;
+    border-radius:5px;
+    padding-bottom:1vh;
+    padding-left: 0.7vh;
+    padding-right: 0.7vh;
+}
+#arrow{
+    width: 3vw;
+    position: fixed;
+    top:2vw;
+    right:2vw;
+    cursor: pointer;
+}
+.aboutmeparagraph{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size:2.5vw;
+    color: #523e2c;
+}
+#goalstitle{
+    margin:3px;
+}
+.list{
+    width:40vw;
+    height: 25vw;
+    border: 0.7vw solid #425e3c;
+    border-radius: 5px;
+    padding: 1vw;
+}
+#leftlist{
+    float:left;
+}
+#rightlist{
+    float:right;
+}

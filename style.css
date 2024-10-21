@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    background-color: #283028;
+    display:flex;
+}
+.wholepage{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.toprow{
+    height: 1vh;
+    display: flex;
+}
+.button{
+    width: 16vw;
+    height: 6vw;
+    font-size: 2.5vw;
+    color: #fcf9eb;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    border: 0.7vw solid #523e2c;
+    border-radius: 3vw;
+    background: #73a168; 
+    margin:3vw;
+    margin-top: 13vh;
+    padding-bottom:1vh;
+}
+.button:hover{
+    cursor: pointer;
+    background: #425e3c; 
+    transform: scale(1.1);
+}
+#title{
+    font-size: 6vw;
+    font-weight: 1000;
+    color: #fcf9eb;
+    font-family: "Acme", sans-serif;
+    position:fixed;
+    left:7vw;
+    top:3vh;
+}
+#firstname{
+    border: 5px solid #425e3c;
+    border-radius:15px 15px 0px 0px;
+    background:#425e3c;
+}
+#lastname{
+    border: 5px solid #523e2c;
+    border-radius:0px 15px 15px 15px;
+    background:#523e2c;
+}
+#headshot{
+    width: 20vw;
+    margin-bottom: 3vh;
+    border: 0.7vw solid #523e2c;
+    border-radius: 1000vw;
+    position: fixed;
+    top:6vh;
+    right:10vw;
+}
+#monstera1{
+    width:18vw;
+    transform: rotate(20deg);
+    position: fixed;
+    top:65vh;
+    left:14vw;
+}
+#monstera2{
+    width:15vw;
+    transform: rotate(250deg);
+    position: fixed;
+    top:65vh;
+    left:32vw;
+}
+#monstera3{
+    width:17vw;
+    transform: rotate(55deg);
+    position: fixed;
+    top:68vh;
+    right:33vw;
+}
+#monstera4{
+    width:16vw;
+    transform: rotate(150deg);
+    position: fixed;
+    top:65vh;
+    right:14vw;
+}
+#pronouns{
+    font-size: 2.5vw;
+    color: #425e3c;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}

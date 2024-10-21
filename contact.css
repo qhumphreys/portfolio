@@ -1,0 +1,46 @@
+body{
+    margin:3vw;
+    background:#73a168;
+}
+.contactimage{
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw 2vw 2vw 0vw;
+    border: 0.7vw solid #523e2c;
+}
+#squareimage{
+    border-radius: 6vw;
+}
+#circleimage{
+    border-radius: 1000vw;
+}
+.contactimage:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#contacttitle{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size:4vw;
+    color: #523e2c;
+}
+#titlespan{
+    border: 0.7vw solid #425e3c;
+    border-radius:5px;
+    padding-bottom:1vh;
+    padding-left: 0.7vh;
+    padding-right: 0.7vh;
+}
+#arrow{
+    width: 3vw;
+    position: fixed;
+    top:2vw;
+    right:2vw;
+    cursor: pointer;
+}
+.contactimages{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

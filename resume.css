@@ -1,0 +1,72 @@
+body{
+    margin: 2vh;
+    background-color: #425e3c;
+    display: flex;
+    justify-content: center; 
+}
+.justtitle{
+    position: fixed;
+    top:0vw;
+    left:3vw;
+}
+.resumepage{
+    max-width: 700px;
+    background:#fff9f1;
+    border: 0.7vw solid #523e2c;
+    padding: 3vw;
+}
+#pagetitle{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size:4vw;
+    color: #523e2c;
+}
+#titlespan{
+    border: 0.7vw solid #73a168;
+    border-radius:5px;
+    padding-bottom:1vh;
+    padding-left: 0.7vh;
+    padding-right: 0.7vh;
+}
+#resumetitle{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size:30pt;
+    margin-bottom:15px;
+}
+
+.resumesection{
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-size:9pt;
+    color: #425e3c;
+}
+
+.resumeitem{
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-size:11pt;
+    margin-bottom:0px
+}
+
+.resumedate{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size:8pt;
+    color:#777877;
+    margin-top:4px
+}
+
+.resumetext{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size:9pt;
+    color:#777877;
+}
+#arrow{
+    width: 3vw;
+    position: fixed;
+    top:2vw;
+    right:2vw;
+    cursor: pointer;
+}
