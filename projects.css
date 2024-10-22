@@ -1,0 +1,67 @@
+body{
+    margin: 2vh;
+    background-color: #73a168;
+}
+#projectstitle{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size:2.7vw;
+    color: #523e2c;
+}
+#titlespan{
+    border: 0.7vw solid #425e3c;
+    border-radius:5px;
+    padding-bottom:1vh;
+    padding-left: 0.7vh;
+    padding-right: 0.7vh;
+}
+.projectbutton{
+    background:#b1dba7;
+    width: 30vw;
+    border: 0.7vw solid #523e2c;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1vw;
+}
+.projectbutton:hover{
+    transform: scale(1.1);
+}
+.titleofproject{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size:2.2vw;
+    color: #425e3c;
+    margin-left:1vw;
+    text-decoration: underline;
+}
+.projectstext{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size:1.9vw;
+    color: #425e3c;
+    margin:1vw;
+}
+a{
+    text-decoration:none;
+}
+.wholepage{
+    display:flex;
+    width: 80vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#arrow{
+    width: 3vw;
+    position: fixed;
+    top:2vw;
+    right:2vw;
+    cursor: pointer;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
